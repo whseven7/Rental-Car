@@ -1,0 +1,120 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    background-color: rgb(165, 8, 8);
+    z-index: 100;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 50px;
+
+}
+
+.header-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 400px;
+    margin-right: 40px;
+}
+
+.logo {
+    width: 150px;
+    height: 100px;
+}
+
+.logo-name {
+    color: #66c32f;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header-mid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+    margin-right: 50px;
+    max-width: 500px;
+    flex: 1;
+}
+
+.searchbar {
+    flex: 1;
+    padding: 10px 10px;
+    height: 20px;
+    border: none;
+}
+
+.search-logo-box {
+    border: 1px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.search-logo {
+    width: 20px;
+    height: 20px;
+}
+
+.header-right {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    vertical-align: middle;
+}
+
+.cart-count {
+    /* display: none; */
+    position: absolute;
+    top: -10px;
+    right: 34px;
+    background-color: orange;
+    color:#fff;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 3px;
+    border-radius: 20px;
+}
+
+#add-to-cart {
+    font-size: 40px;
+    color: #66c32f;
+    cursor: pointer;
+}
+
+.top-menu {
+    font-size: 16px;
+    color: #66c32f;
+    margin: 12px;
+    text-decoration: none;
+}
+
+.top-menu:hover {
+    text-decoration: underline;
+}
+
+#highlight {
+    text-decoration: underline;
+}
+
+.car-reserve {
+    background-color: #66c32f;
+    color:#fff;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px;
+}
+
+.car-reserve:hover {
+    background-color: seagreen;
+}
